@@ -2,7 +2,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
-import Stats from './components/Stats';
 import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import CallToAction from './components/CallToAction';
@@ -16,9 +15,8 @@ export default function Home() {
       <CallToAction />
       <Services />
       <About />
-      <Stats />
-      <Projects />
       <Testimonials />
+      <Projects />
       <Footer />
     </main>
   );

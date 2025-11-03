@@ -52,16 +52,6 @@ export default function Navbar() {
                 Start
               </a>
               <a
-                href="#ueber-uns"
-                className={`px-3 py-2 text-base font-semibold transition-colors ${
-                  isScrolled
-                    ? 'text-gray-700 hover:text-orange-500'
-                    : 'text-white hover:text-orange-500'
-                }`}
-              >
-                Über uns
-              </a>
-              <a
                 href="#leistungen"
                 className={`px-3 py-2 text-base font-semibold transition-colors ${
                   isScrolled
@@ -70,6 +60,16 @@ export default function Navbar() {
                 }`}
               >
                 Leistungen
+              </a>
+              <a
+                href="#ueber-uns"
+                className={`px-3 py-2 text-base font-semibold transition-colors ${
+                  isScrolled
+                    ? 'text-gray-700 hover:text-orange-500'
+                    : 'text-white hover:text-orange-500'
+                }`}
+              >
+                Über uns
               </a>
               <a
                 href="#projekte"
@@ -140,18 +140,18 @@ export default function Navbar() {
                 Start
               </a>
               <a
-                href="#ueber-uns"
-                className="block text-gray-700 hover:text-orange-500 px-3 py-2 text-base font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Über uns
-              </a>
-              <a
                 href="#leistungen"
                 className="block text-gray-700 hover:text-orange-500 px-3 py-2 text-base font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Leistungen
+              </a>
+              <a
+                href="#ueber-uns"
+                className="block text-gray-700 hover:text-orange-500 px-3 py-2 text-base font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Über uns
               </a>
               <a
                 href="#projekte"

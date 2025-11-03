@@ -3,151 +3,147 @@ export default function Services() {
     {
       icon: (
         <svg
-          className="w-12 h-12 text-orange-500"
+          className="w-16 h-16 text-orange-500"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          strokeWidth={2}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      ),
-      title: 'Garten & Außenbereich',
-      description:
-        'Von der Terrassenüberdachung bis zur kompletten Gartengestaltung – wir schaffen attraktive Außenräume.',
-    },
-    {
-      icon: (
-        <svg
-          className="w-12 h-12 text-orange-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
             d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
           />
         </svg>
       ),
-      title: 'Innenausbau',
+      title: 'Renovierung',
       description:
-        'Renovierung und Umgestaltung Ihrer Wohnräume mit handwerklichem Geschick und modernen Materialien.',
+        'Komplette Renovierung von Wohn- und Gewerberäumen nach modernsten Standards und Ihren Wünschen.',
     },
     {
       icon: (
         <svg
-          className="w-12 h-12 text-orange-500"
+          className="w-16 h-16 text-green-600"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          strokeWidth={2}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
             d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z"
           />
         </svg>
       ),
-      title: 'Bodenlegung',
+      title: 'Veredelung',
       description:
-        'Professionelle Verlegung von Laminat, Parkett, Vinyl und anderen Bodenbelägen.',
+        'Professionelle Veredelung und Finish-Arbeiten für ein makelloses Endergebnis in höchster Qualität.',
     },
     {
       icon: (
         <svg
-          className="w-12 h-12 text-orange-500"
+          className="w-16 h-16 text-yellow-600"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          strokeWidth={2}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+            d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"
+          />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M17 21v-8H7v8M7 3v5h8"
           />
         </svg>
       ),
-      title: 'Elektroinstallationen',
+      title: 'Hochbau',
       description:
-        'Von der Steckdose bis zur kompletten Elektroinstallation – alles aus einer Hand.',
+        'Von Grund auf solide – wir planen und realisieren Ihre Bauprojekte mit Expertise und Präzision.',
     },
     {
       icon: (
         <svg
-          className="w-12 h-12 text-orange-500"
+          className="w-16 h-16 text-blue-600"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          strokeWidth={2}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
           />
         </svg>
       ),
-      title: 'Heizung & Sanitär',
+      title: 'Hausbau',
       description:
-        'Installation und Reparatur von Heizungs- und Sanitäranlagen durch erfahrene Handwerker.',
+        'Individueller Hausbau nach Maß – von der Planung bis zur Schlüsselübergabe aus einer Hand.',
     },
     {
       icon: (
         <svg
-          className="w-12 h-12 text-orange-500"
+          className="w-16 h-16 text-amber-700"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          strokeWidth={2}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
           />
         </svg>
       ),
-      title: 'Malerarbeiten',
+      title: 'Zaunbau',
       description:
-        'Interne und externe Malerarbeiten mit hochwertigen Farben und professioneller Verarbeitung.',
+        'Dauerhafte Einfriedungen aus verschiedenen Materialien für Privatgrundstücke und Gewerbe.',
+    },
+    {
+      icon: (
+        <svg
+          className="w-16 h-16 text-blue-500"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+          />
+        </svg>
+      ),
+      title: 'Brückenbau',
+      description:
+        'Planung und Ausführung von Brückenkonstruktionen für private und öffentliche Projekte.',
     },
   ];
 
   return (
-    <section id="leistungen" className="py-20 bg-white">
+    <section id="leistungen" className="py-20 bg-orange-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Unsere Leistungen
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Von A wie Ausbau bis Z wie Zimmerarbeiten – wir bieten das
-            komplette Handwerksspektrum für Ihre Immobilie.
-          </p>
-        </div>
-
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow border border-gray-100"
+              className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
-              <div className="mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <div className="flex justify-center mb-6">
+                {service.icon}
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">
                 {service.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-center">
                 {service.description}
               </p>
             </div>
