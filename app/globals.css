@@ -41,7 +41,7 @@ html {
   background: #555;
 }
 
-/* Anchor link offset */
+/* Anchor link offset: Navbar-Höhe + Safe-Area (Notch) */
 section[id] {
-  scroll-margin-top: 80px;
+  scroll-margin-top: calc(80px + env(safe-area-inset-top, 0px));
 }

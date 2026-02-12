@@ -15,26 +15,45 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const logoColor = isScrolled ? 'text-gray-900' : 'text-white';
+
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 pt-[env(safe-area-inset-top)] ${
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-md'
           : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-14 md:h-20 min-h-14">
+          {/* Logo: Symbol auf Mobile, voller Schriftszug auf Desktop */}
           <div className="flex-shrink-0">
             <a
               href="#"
-              className={`text-2xl font-bold transition-colors flex items-center ${
-                isScrolled ? 'text-gray-900' : 'text-white'
-              }`}
+              className={`font-bold transition-colors flex items-center gap-1.5 ${logoColor}`}
+              aria-label="Handwerker – Startseite"
             >
-              HANDWERKER
-              <span className="ml-2 w-2 h-2 bg-orange-500"></span>
+              {/* Mobile: Winkel/Schraubenschlüssel-Symbol (Handwerker-Icon) */}
+              <span className={`md:hidden flex items-center justify-center w-10 h-10 rounded-lg ${isScrolled ? 'bg-orange-500/10 border border-orange-500/20' : 'bg-white/10 border border-white/20'}`}>
+                <svg
+                  className={`w-6 h-6 ${logoColor}`}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden
+                >
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+              </span>
+              {/* Desktop: voller Schriftszug */}
+              <span className="hidden md:flex items-center text-2xl">
+                HANDWERKER
+                <span className="ml-2 w-2 h-2 rounded-full bg-orange-500" />
+              </span>
             </a>
           </div>
 
