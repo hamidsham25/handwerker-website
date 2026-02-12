@@ -25,7 +25,7 @@ export default function Navbar() {
           : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-2 md:pt-0">
         <div className="flex items-center justify-between h-14 md:h-20 min-h-14">
           {/* Logo: Symbol auf Mobile, voller Schriftszug auf Desktop */}
           <div className="flex-shrink-0">
